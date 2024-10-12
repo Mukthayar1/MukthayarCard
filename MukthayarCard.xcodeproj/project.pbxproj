@@ -29,9 +29,22 @@
 		2B2B26C92CBA802500BCB2FE /* MukthayarCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MukthayarCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		2B2B27462CBA8CF500BCB2FE /* Exceptions for "MukthayarCard" folder in "MukthayarCard" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 2B2B26AE2CBA802300BCB2FE /* MukthayarCard */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		2B2B26B12CBA802300BCB2FE /* MukthayarCard */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				2B2B27462CBA8CF500BCB2FE /* Exceptions for "MukthayarCard" folder in "MukthayarCard" target */,
+			);
 			path = MukthayarCard;
 			sourceTree = "<group>";
 		};
@@ -398,6 +411,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"MukthayarCard/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MukthayarCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -426,6 +440,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"MukthayarCard/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MukthayarCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
